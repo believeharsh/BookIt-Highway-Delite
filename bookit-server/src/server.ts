@@ -1,35 +1,46 @@
-import express, { Request, Response, NextFunction } from 'express';
+import express from 'express';
 import dotenv from 'dotenv';
+import mongoose from 'mongoose';
+import cors from 'cors';
 
-// Load environment variables
+// Import routes
+import experienceRoutes from './routes/experience.Routes';
+import bookingRoutes from './routes/booking.routes';
+import promoRoutes from './routes/promo.routes';
+import helmet from 'helmet';
+
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 // Middleware
+app.use(cors());
 app.use(express.json());
+app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
 
-// Basic route
-app.get('/', (req: Request, res: Response) => {
-  res.json({ message: 'Server is running!' });
-});
+// Database connection
+mongoose
+  .connect(process.env.MONGO_DB_URI || 'mongodb://localhost:27017/bookit')
+  .then(() => console.log('✅ MongoDB connected'))
+  .catch((err) => console.error('❌ MongoDB connection error:', err));
 
-// Health check endpoint
-app.get('/health', (req: Request, res: Response) => {
-  res.status(200).json({ status: 'OK' });
-});
+// Routes
+app.use('/api/experiences', experienceRoutes);
+app.use('/api/bookings', bookingRoutes);
+app.use('/api/promo', promoRoutes);
 
-// Error handling middleware
-app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
-  console.error(err.stack);
-  res.status(500).json({ error: 'Something went wrong!' });
+// Health check
+app.get('/health', (req, res) => {
+  res.json({ status: 'OK', message: 'Server is running' });
 });
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`🚀 Server running on port ${PORT}`);
 });
 
 export default app;
+
+
