@@ -29,7 +29,6 @@ const Navbar = () => {
 
   const navItems: NavItem[] = [
     { name: "Home", href: "/" },
-    { name: "Booking", href: "/bookings" },
     { name: "Fleet", href: "/fleet" },
     { name: "About us", href: "about" },
     { name: "contact", href: "contact" },
