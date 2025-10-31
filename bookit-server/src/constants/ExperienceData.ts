@@ -18,8 +18,7 @@ export const sampleExperiences = [
     shortDescription: "Challenging trek to the mysterious Roopkund Lake in the Himalayas.",
     price: 18000,
     images: [
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f"
+      "https://plus.unsplash.com/premium_photo-1661814278311-d59ab0b4a676?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGltYWxheWElMjB0cmVra2luZ3xlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000",
     ],
     location: { city: "Uttarakhand", country: "India" },
     duration: "7 days",
@@ -37,8 +36,7 @@ export const sampleExperiences = [
     shortDescription: "Thrilling white water rafting adventure on the Ganges River.",
     price: 2500,
     images: [
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f",
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+      "https://images.unsplash.com/photo-1598610882061-bb806386c5fb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHJpc2hpa2VzaCUyMHJhZnRpbmd8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000"
     ],
     location: { city: "Rishikesh", country: "India" },
     duration: "4 hours",
@@ -56,8 +54,7 @@ export const sampleExperiences = [
     shortDescription: "Tandem paragliding flight over the Dhauladhar mountains.",
     price: 3500,
     images: [
-      "https://images.unsplash.com/photo-1544551763-46a013bb70d5",
-      "https://images.unsplash.com/photo-1559827260-dc66d52bef19"
+      "https://images.unsplash.com/photo-1669474643381-9c99377886ed?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
     ],
     location: { city: "Bir Billing", country: "India" },
     duration: "1 hour",
@@ -75,8 +72,7 @@ export const sampleExperiences = [
     shortDescription: "Discover vibrant marine life with a guided scuba dive.",
     price: 6000,
     images: [
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f"
+      "https://images.unsplash.com/photo-1682687982502-1529b3b33f85?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGl2aW5nfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000"
     ],
     location: { city: "Havelock Island", country: "India" },
     duration: "Half day",
@@ -94,8 +90,7 @@ export const sampleExperiences = [
     shortDescription: "India's highest bungee jump for an ultimate thrill.",
     price: 4000,
     images: [
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f",
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+      "https://images.unsplash.com/photo-1731662333563-ec92fbf087b1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVuZ2VlfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000"
     ],
     location: { city: "Rishikesh", country: "India" },
     duration: "2 hours",
@@ -108,167 +103,12 @@ export const sampleExperiences = [
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Desert Quad Biking in Dubai",
-    description: "Unleash your inner adventurer with an exhilarating quad biking experience across the golden dunes of the Arabian Desert. Feel the rush as you conquer the sandy terrain.",
-    shortDescription: "Adrenaline-pumping quad biking across Dubai's desert dunes.",
-    price: 7500,
-    images: [
-      "https://images.unsplash.com/photo-1509023464722-18d996393ca8",
-      "https://images.unsplash.com/photo-1568322445389-f64ac2515020"
-    ],
-    location: { city: "Dubai", country: "UAE" },
-    duration: "2 hours",
-    category: "Adventure" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Powerful quad bikes", "Guided desert tour", "Dune bashing", "Safety gear provided"],
-    included: ["Quad bike rental", "Safety helmet", "Experienced guide", "Water"],
-    notIncluded: ["Hotel transfers", "Meals", "Personal insurance"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Canyoning in Interlaken, Switzerland",
-    description: "Descend through stunning gorges, rappel down waterfalls, slide through natural rock chutes, and jump into crystal-clear pools in the breathtaking canyons of Interlaken.",
-    shortDescription: "Thrilling canyoning adventure with rappelling and cliff jumping.",
-    price: 12000,
-    images: [
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f"
-    ],
-    location: { city: "Interlaken", country: "Switzerland" },
-    duration: "Half day",
-    category: "Adventure" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Rappelling down waterfalls", "Natural water slides", "Cliff jumps", "Stunning natural scenery"],
-    included: ["Professional guides", "All technical equipment", "Wetsuit", "Transfers from base"],
-    notIncluded: ["Photos/videos", "Meals", "Personal items"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Zip-lining through Costa Rican Rainforest",
-    description: "Fly high above the canopy of the Costa Rican rainforest on an exhilarating zip-lining tour. Experience incredible views and spot wildlife from a unique perspective.",
-    shortDescription: "Soar over the rainforest canopy on an exciting zip-line tour.",
-    price: 6500,
-    images: [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f"
-    ],
-    location: { city: "Monteverde", country: "Costa Rica" },
-    duration: "3 hours",
-    category: "Adventure" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Multiple zip-line cables", "Longest cables in region", "Rainforest views", "Safety certified"],
-    included: ["Zip-line tour", "Safety equipment", "Professional guides", "Briefing"],
-    notIncluded: ["Transportation", "Meals", "Photos"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-
-  // --- Culture Category (7 experiences) ---
-  {
-    title: "Traditional Japanese Tea Ceremony in Kyoto",
-    description: "Immerse yourself in the serene art of the Japanese tea ceremony. Learn about its history, etiquette, and enjoy a freshly prepared matcha tea in a traditional setting.",
-    shortDescription: "Experience an authentic Japanese tea ceremony in Kyoto.",
-    price: 4000,
-    images: [
-      "https://images.unsplash.com/photo-1532635241-17a35b361310",
-      "https://images.unsplash.com/photo-1528164344705-478506901368"
-    ],
-    location: { city: "Kyoto", country: "Japan" },
-    duration: "1.5 hours",
-    category: "Culture" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Authentic tea house", "Expert tea master", "Matcha preparation", "Traditional sweets"],
-    included: ["Tea ceremony participation", "Matcha tea", "Japanese sweets", "English explanation"],
-    notIncluded: ["Kimono rental", "Transportation", "Souvenirs"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Ancient Rome & Colosseum Tour",
-    description: "Step back in time with a guided tour of Ancient Rome, including skip-the-line access to the Colosseum and Roman Forum. Learn about gladiators, emperors, and daily life.",
-    shortDescription: "Explore the Colosseum and Roman Forum with an expert guide.",
-    price: 5500,
-    images: [
-      "https://images.unsplash.com/photo-1506784881432-cfd49e54d566",
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c"
-    ],
-    location: { city: "Rome", country: "Italy" },
-    duration: "3 hours",
-    category: "Culture" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Skip-the-line Colosseum access", "Roman Forum exploration", "Palatine Hill views", "Expert historian guide"],
-    included: ["Entrance tickets", "Guided tour", "Headsets for clear audio"],
-    notIncluded: ["Hotel pickup", "Food and drinks", "Gratuities"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Flamenco Show with Dinner in Seville",
-    description: "Experience the passion and intensity of a live Flamenco show in Seville, the birthplace of this art form. Enjoy a traditional Spanish dinner alongside the captivating performance.",
-    shortDescription: "Passionate Flamenco show paired with a traditional Spanish dinner.",
-    price: 7000,
-    images: [
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f",
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
-    ],
-    location: { city: "Seville", country: "Spain" },
-    duration: "2.5 hours",
-    category: "Culture" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Authentic Flamenco performance", "Live music and dance", "Traditional Spanish cuisine", "Intimate venue"],
-    included: ["Show ticket", "3-course dinner", "Drinks (wine/beer/soft drinks)"],
-    notIncluded: ["Hotel transfers", "Additional drinks", "Souvenirs"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Hanoi Old Quarter Street Food & Culture Walk",
-    description: "Delve into the bustling streets of Hanoi's Old Quarter on a guided walking tour. Sample delicious local street food and discover hidden cultural gems.",
-    shortDescription: "Guided walk through Hanoi's Old Quarter, tasting local street food.",
-    price: 2000,
-    images: [
-      "https://images.unsplash.com/photo-1504754524776-abf3858f2bd5",
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c"
-    ],
-    location: { city: "Hanoi", country: "Vietnam" },
-    duration: "3 hours",
-    category: "Culture" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Authentic Vietnamese dishes", "Hidden alleys exploration", "Local market visit", "Insightful guide"],
-    included: ["Food tastings at multiple stops", "Local guide", "Bottled water"],
-    notIncluded: ["Alcoholic drinks", "Souvenirs", "Hotel transfers"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Maasai Village Cultural Visit, Tanzania",
-    description: "Spend an enriching afternoon with the Maasai people, learning about their traditions, daily life, and unique culture. Witness traditional dances and crafts.",
-    shortDescription: "Immersive cultural visit to an authentic Maasai village.",
-    price: 4500,
-    images: [
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f",
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
-    ],
-    location: { city: "Arusha", country: "Tanzania" },
-    duration: "4 hours",
-    category: "Culture" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Maasai traditional dances", "Learn about local customs", "Visit a boma (homestead)", "Support local community"],
-    included: ["Village entrance fee", "Local guide/translator", "Cultural demonstration"],
-    notIncluded: ["Transportation to village", "Souvenirs", "Meals"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
     title: "Ganga Aarti Ceremony & Old City Walk, Varanasi",
     description: "Witness the spiritual grandeur of the Ganga Aarti ceremony from a prime ghat location, followed by a walk through the ancient alleys of Varanasi.",
     shortDescription: "Experience the sacred Ganga Aarti and explore Varanasi's old city.",
     price: 1800,
     images: [
-      "https://images.unsplash.com/photo-1561361513-2d000a50f0dc",
-      "https://images.unsplash.com/photo-1548013146-72479768bada"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyCn103RC5vLqmvKZI_FFWh7dcqKgEyKXapg&s"
     ],
     location: { city: "Varanasi", country: "India" },
     duration: "3 hours",
@@ -281,110 +121,106 @@ export const sampleExperiences = [
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Cooking Class: Authentic Thai Cuisine, Bangkok",
-    description: "Learn the secrets of authentic Thai cooking from a local chef. Visit a market, prepare classic dishes, and enjoy your delicious creations.",
-    shortDescription: "Hands-on Thai cooking class with market visit.",
-    price: 3000,
+    title: "Desert Safari in Jaisalmer",
+    description: "Experience the magic of the Thar Desert with a thrilling jeep safari across the golden dunes of Jaisalmer, followed by a cultural evening and dinner.",
+    shortDescription: "Thrilling jeep safari and cultural evening in the Thar Desert.",
+    price: 3500,
     images: [
-      "https://images.unsplash.com/photo-1504754524776-abf3858f2bd5",
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c"
+      "https://plus.unsplash.com/premium_photo-1661962428918-6a57ab674e23?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8amFpc2FsbWVyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000"
     ],
-    location: { city: "Bangkok", country: "Thailand" },
+    location: { city: "Jaisalmer", country: "India" },
+    duration: "6 hours",
+    category: "Adventure" as CategoryType,
+    rating: getRandomRating(),
+    reviewCount: getRandomInt(50, 500),
+    highlights: ["Dune bashing", "Sunset views", "Camel ride", "Cultural program"],
+    included: ["Jeep safari", "Camel ride", "Dinner", "Water"],
+    notIncluded: ["Hotel transfers", "Alcoholic drinks", "Personal expenses"],
+    maxGroupSize: getRandomInt(5, 20)
+  },
+  {
+    title: "Spiti Valley Motorcycle Tour",
+    description: "Embark on a rugged motorcycle journey through the high-altitude desert of Spiti Valley. Navigate challenging roads, visit ancient monasteries, and witness breathtaking landscapes.",
+    shortDescription: "High-altitude motorcycle adventure through Spiti Valley.",
+    price: 25000,
+    images: [
+      "https://images.unsplash.com/photo-1579010461011-47920f63d8d4?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI5fHx8ZW58MHx8fHx8"
+    ],
+    location: { city: "Manali", country: "India" },
+    duration: "8 days",
+    category: "Adventure" as CategoryType,
+    rating: getRandomRating(),
+    reviewCount: getRandomInt(50, 500),
+    highlights: ["High-altitude passes", "Ancient monasteries", "Stunning landscapes", "Challenging roads"],
+    included: ["Motorcycle rental", "Accommodation", "Mechanic support", "Permits"],
+    notIncluded: ["Fuel", "Meals", "Riding gear"],
+    maxGroupSize: getRandomInt(5, 20)
+  },
+
+  // --- Culture Category (7 experiences) ---
+  {
+    title: "Kathakali Performance & Dinner in Kochi",
+    description: "Witness the dramatic and colorful classical Indian dance-drama of Kathakali. See the elaborate makeup process followed by a captivating performance and a traditional Kerala dinner.",
+    shortDescription: "Experience a traditional Kathakali performance in Kerala.",
+    price: 2500,
+    images: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUhnRwk0gFvWZDo7ZW8Abht-Fc_zoql4saWA&s"
+    ],
+    location: { city: "Kochi", country: "India" },
+    duration: "3 hours",
+    category: "Culture" as CategoryType,
+    rating: getRandomRating(),
+    reviewCount: getRandomInt(50, 500),
+    highlights: ["Live Kathakali show", "Makeup demonstration", "Traditional Kerala dinner", "Cultural insight"],
+    included: ["Show ticket", "Dinner", "Explanatory session"],
+    notIncluded: ["Transportation", "Souvenirs", "Drinks"],
+    maxGroupSize: getRandomInt(5, 20)
+  },
+  {
+    title: "Old Delhi Heritage and Food Walk",
+    description: "Explore the chaotic and charming lanes of Old Delhi. Visit historical sites like Jama Masjid and Chandni Chowk, and savor iconic street food delicacies.",
+    shortDescription: "A guided walk through Old Delhi's history and street food scene.",
+    price: 2200,
+    images: [
+      "https://images.unsplash.com/photo-1595931848923-43c037a114d1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8b2xkJTIwZGVsaGl8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000"
+    ],
+    location: { city: "Delhi", country: "India" },
     duration: "4 hours",
     category: "Culture" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Market tour for ingredients", "Learn 3-4 Thai dishes", "Hands-on cooking", "Recipe booklet"],
-    included: ["Ingredients", "Cooking station", "Chef instruction", "Meal of your creations"],
-    notIncluded: ["Drinks", "Transportation", "Souvenirs"],
+    highlights: ["Chandni Chowk market", "Jama Masjid", "Rickshaw ride", "Street food tasting"],
+    included: ["Guided tour", "Food tastings", "Rickshaw ride", "Bottled water"],
+    notIncluded: ["Hotel pickup", "Additional food", "Gratuities"],
+    maxGroupSize: getRandomInt(5, 20)
+  },
+  {
+    title: "Mumbai Bollywood Tour with Dance Show",
+    description: "Get a behind-the-scenes look at the heart of India's film industry. Visit a film studio, see live shooting (subject to availability), and enjoy a vibrant Bollywood dance show.",
+    shortDescription: "Behind-the-scenes tour of Bollywood with a live dance show.",
+    price: 4500,
+    images: [
+      "https://images.unsplash.com/photo-1547106500-9b566874481b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Ym9sbHl3b29kJTIwZGFuY2V8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000"
+    ],
+    location: { city: "Mumbai", country: "India" },
+    duration: "5 hours",
+    category: "Culture" as CategoryType,
+    rating: getRandomRating(),
+    reviewCount: getRandomInt(50, 500),
+    highlights: ["Visit a film studio", "Live shooting insight", "Bollywood dance performance", "Film history"],
+    included: ["Studio tour", "Dance show", "Air-conditioned transport", "Guide"],
+    notIncluded: ["Meals", "Souvenirs", "Hotel transfers"],
     maxGroupSize: getRandomInt(5, 20)
   },
 
   // --- Nature Category (8 experiences) ---
-  {
-    title: "Amazon Rainforest Expedition, Peru",
-    description: "Embark on an unforgettable journey into the heart of the Peruvian Amazon. Explore diverse ecosystems, spot exotic wildlife, and learn about the rainforest from local guides.",
-    shortDescription: "Multi-day expedition into the Peruvian Amazon rainforest.",
-    price: 25000,
-    images: [
-      "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
-      "https://images.unsplash.com/photo-1470071459604-3b5ecda7ab33"
-    ],
-    location: { city: "Iquitos", country: "Peru" },
-    duration: "4 days",
-    category: "Nature" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Jungle treks", "River boat safaris", "Wildlife spotting", "Local community visit"],
-    included: ["Lodge accommodation", "All meals", "Guided excursions", "Transfers from Iquitos"],
-    notIncluded: ["International flights", "Travel insurance", "Alcoholic drinks"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Fiordland National Park Cruise, New Zealand",
-    description: "Cruise through the majestic fjords of Fiordland National Park, a UNESCO World Heritage site. Witness towering cliffs, cascading waterfalls, and pristine wilderness.",
-    shortDescription: "Scenic cruise through the stunning fjords of New Zealand.",
-    price: 9000,
-    images: [
-      "https://images.unsplash.com/photo-1506744038136-462a42ee6ee4",
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c"
-    ],
-    location: { city: "Queenstown", country: "New Zealand" },
-    duration: "Full day",
-    category: "Nature" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Milford Sound/Doubtful Sound", "Waterfalls", "Wildlife (seals, dolphins)", "Scenic boat ride"],
-    included: ["Cruise ticket", "Commentary by naturalist", "Lunch on board"],
-    notIncluded: ["Transportation to departure point", "Snacks", "Souvenirs"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Sahara Desert Overnight Camp, Morocco",
-    description: "Experience the magic of the Sahara Desert with an overnight stay in a traditional Berber camp. Enjoy a camel trek, sunset over the dunes, and stargazing.",
-    shortDescription: "Overnight camel trek and camp stay in the Sahara Desert.",
-    price: 8000,
-    images: [
-      "https://images.unsplash.com/photo-1509023464722-18d996393ca8",
-      "https://images.unsplash.com/photo-1568322445389-f64ac2515020"
-    ],
-    location: { city: "Merzouga", country: "Morocco" },
-    duration: "2 days",
-    category: "Nature" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Camel trekking", "Sunset and sunrise over dunes", "Traditional dinner", "Stargazing"],
-    included: ["Camel ride", "Dinner & breakfast", "Tent accommodation", "Local guide"],
-    notIncluded: ["Drinks", "Tips", "Transportation to Merzouga"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Plitvice Lakes National Park Tour, Croatia",
-    description: "Discover the breathtaking beauty of Plitvice Lakes National Park, a UNESCO site famous for its cascading lakes, waterfalls, and lush forests. Walk along wooden boardwalks.",
-    shortDescription: "Explore the stunning waterfalls and lakes of Plitvice National Park.",
-    price: 4500,
-    images: [
-      "https://images.unsplash.com/photo-1470071459604-3b5ecda7ab33",
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c"
-    ],
-    location: { city: "Plitvice Lakes", country: "Croatia" },
-    duration: "Full day",
-    category: "Nature" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Upper and Lower Lakes", "Wooden boardwalks", "Electric boat ride", "Stunning waterfalls"],
-    included: ["Park entrance ticket", "Guided tour", "Boat/train rides within park"],
-    notIncluded: ["Transportation to park", "Meals", "Personal expenses"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
   {
     title: "Kerala Backwaters Houseboat Stay",
     description: "Cruise through the serene backwaters of Kerala in a traditional houseboat. Enjoy freshly prepared local cuisine, watch village life unfold, and experience the tranquility of these waterways.",
     shortDescription: "Overnight houseboat journey through Kerala's backwaters",
     price: 12000,
     images: [
-      "https://images.unsplash.com/photo-1602216056026-91c3f31c4ea7",
-      "https://images.unsplash.com/photo-1571896349842-33c89424de2d"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFFWWAqgALTSQhRrHjUuNjsbsISPFzBQ7DIA&s"
     ],
     location: { city: "Alleppey", country: "India" },
     duration: "24 hours",
@@ -411,389 +247,205 @@ export const sampleExperiences = [
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Iceland Golden Circle & Secret Lagoon Tour",
-    description: "Discover Iceland's iconic Golden Circle route, featuring geysers, waterfalls, and national parks. Conclude your day with a relaxing soak in the Secret Lagoon.",
-    shortDescription: "Explore Iceland's Golden Circle and relax in a natural hot spring.",
-    price: 10000,
+    title: "Living Root Bridges Trek, Meghalaya",
+    description: "Witness the engineering marvel of the Khasi tribes by trekking to the living root bridges of Meghalaya. Cross these unique bridges grown from the roots of rubber trees.",
+    shortDescription: "Trek to see the unique living root bridges of Meghalaya.",
+    price: 8000,
     images: [
-      "https://images.unsplash.com/photo-1506744038136-462a42ee6ee4",
-      "https://images.unsplash.com/photo-1470071459604-3b5ecda7ab33"
+      "https://res.cloudinary.com/roundglass/image/upload/f_auto/v1649765953/rg/collective/media/meghalaya-nongriat-double-decker-living-root-bridge-greenery-people-ashwin-ezhumalai_mmdvms.jpg"
     ],
-    location: { city: "Reykjavik", country: "Iceland" },
-    duration: "8 hours",
+    location: { city: "Cherrapunji", country: "India" },
+    duration: "Full day",
     category: "Nature" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Gullfoss waterfall", "Geysir geothermal area", "Thingvellir National Park", "Secret Lagoon bath"],
-    included: ["Guided bus tour", "Secret Lagoon entrance", "WiFi on bus"],
-    notIncluded: ["Meals", "Towels at lagoon", "Swimwear rental"],
+    highlights: ["Double-decker root bridge", "Natural swimming pools", "Lush rainforest", "Khasi culture"],
+    included: ["Local guide", "Village entry fees", "Bottled water"],
+    notIncluded: ["Transportation", "Meals", "Personal expenses"],
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Canadian Rockies Hiking Adventure",
-    description: "Embark on a multi-day hiking adventure through the stunning Canadian Rockies. Explore glacial lakes, towering peaks, and pristine wilderness with experienced guides.",
-    shortDescription: "Guided hiking tour through the majestic Canadian Rockies.",
-    price: 22000,
+    title: "Tea Plantation Tour in Munnar",
+    description: "Walk through the rolling hills of Munnar, covered in lush green tea plantations. Learn about the tea-making process from leaf to cup and enjoy fresh tea tasting.",
+    shortDescription: "Explore the scenic tea gardens of Munnar.",
+    price: 1500,
     images: [
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f"
+      "https://images.unsplash.com/photo-1491497895121-1334fc14d8c9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVhJTIwZ2FyZGVuc3xlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000"
     ],
-    location: { city: "Banff", country: "Canada" },
-    duration: "5 days",
+    location: { city: "Munnar", country: "India" },
+    duration: "4 hours",
     category: "Nature" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Iconic trails", "Wildlife viewing opportunities", "Stunning mountain scenery", "Lakes and glaciers"],
-    included: ["Accommodation (lodges/tents)", "All meals", "Certified hiking guides", "Park permits"],
-    notIncluded: ["Personal gear", "Flights", "Alcoholic beverages"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Mount Fuji Day Trip & Lake Ashi Cruise, Japan",
-    description: "Witness the iconic Mount Fuji on a scenic day trip from Tokyo. Enjoy panoramic views, a cruise on Lake Ashi, and a ride on the Hakone Ropeway.",
-    shortDescription: "Full-day tour to Mount Fuji, Lake Ashi, and Hakone.",
-    price: 9500,
-    images: [
-      "https://images.unsplash.com/photo-1506744038136-462a42ee6ee4",
-      "https://images.unsplash.com/photo-1470071459604-3b5ecda7ab33"
-    ],
-    location: { city: "Tokyo", country: "Japan" },
-    duration: "10 hours",
-    category: "Nature" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Mount Fuji 5th Station", "Lake Ashi pirate cruise", "Hakone Ropeway", "Owakudani volcanic valley"],
-    included: ["Round-trip transport from Tokyo", "All entrance fees", "English-speaking guide"],
-    notIncluded: ["Lunch", "Personal expenses", "Souvenirs"],
+    highlights: ["Lush tea estates", "Tea factory visit", "Tea tasting session", "Panoramic viewpoints"],
+    included: ["Guided walk", "Factory tour", "Tea tasting"],
+    notIncluded: ["Transportation", "Meals", "Personal purchases"],
     maxGroupSize: getRandomInt(5, 20)
   },
 
   // --- Food Category (7 experiences) ---
   {
-    title: "Rome Street Food Tour with Local Guide",
-    description: "Savor the authentic flavors of Rome on a guided street food tour. Taste traditional Roman delicacies, visit local markets, and discover hidden culinary gems.",
-    shortDescription: "Taste Rome's best street food on a guided walking tour.",
-    price: 3800,
+    title: "Amritsar Food Walk",
+    description: "Embark on a culinary journey through the streets of Amritsar, the food capital of Punjab. Taste iconic dishes like Amritsari Kulcha, Lassi, and Jalebi from legendary local eateries.",
+    shortDescription: "Taste the best of Punjabi cuisine on a guided food tour.",
+    price: 1800,
     images: [
-      "https://images.unsplash.com/photo-1504754524776-abf3858f2bd5",
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c"
+      "https://www.alphonsostories.com/AlphonSoStoriesImages/SubServiceImage/Local-street-vendor-food-walk-lucknow.jpg"
     ],
-    location: { city: "Rome", country: "Italy" },
+    location: { city: "Amritsar", country: "India" },
     duration: "3 hours",
     category: "Food" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Pizza al taglio", "Supplí", "Artisanal gelato", "Local market experience"],
+    highlights: ["Amritsari Kulcha", "Makki di Roti & Sarson da Saag", "Sweet Lassi", "Golden Temple Langar"],
     included: ["All food tastings", "Local expert guide", "Bottled water"],
     notIncluded: ["Alcoholic beverages", "Souvenirs", "Hotel transfers"],
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Paris Macaron Baking Class",
-    description: "Learn the art of making delicate French macarons from a Parisian pastry chef. Master the techniques and take home your delicious creations.",
-    shortDescription: "Hands-on class to bake authentic French macarons.",
-    price: 6000,
+    title: "Jaipur Cooking Class with a Local Family",
+    description: "Learn the secrets of authentic Rajasthani cuisine in a hands-on cooking class hosted in a local family's home. Prepare dishes like Dal Baati Churma and enjoy a meal together.",
+    shortDescription: "Authentic Rajasthani cooking class in a local home.",
+    price: 2500,
     images: [
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f",
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/43/a0/f0/caption.jpg?w=500&h=400&s=1"
     ],
-    location: { city: "Paris", country: "France" },
-    duration: "2.5 hours",
+    location: { city: "Jaipur", country: "India" },
+    duration: "4 hours",
     category: "Food" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Professional pastry chef", "All ingredients provided", "Recipe booklet", "Take home macarons"],
-    included: ["Ingredients", "Equipment", "Chef instruction", "Coffee/tea"],
-    notIncluded: ["Apron rental", "Transportation", "Additional snacks"],
+    highlights: ["Learn traditional recipes", "Hands-on cooking experience", "Dine with a local family", "Cultural exchange"],
+    included: ["Ingredients", "Cooking instruction", "Full meal", "Recipe notes"],
+    notIncluded: ["Transportation", "Alcoholic drinks", "Souvenirs"],
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Barcelona Tapas & Wine Evening Tour",
-    description: "Indulge in a delightful evening of tapas and wine in Barcelona. Visit authentic local bars, sample traditional dishes, and enjoy regional wines with a local guide.",
-    shortDescription: "Guided evening tour of Barcelona's best tapas bars.",
-    price: 5000,
+    title: "Lucknow Street Food Crawl",
+    description: "Explore the culinary heritage of the 'City of Nawabs'. This guided tour takes you to the best spots for tasting iconic Awadhi dishes like Tunday Kebab, Biryani, and Malai Makhan.",
+    shortDescription: "Taste the legendary Awadhi cuisine of Lucknow.",
+    price: 2000,
     images: [
-      "https://images.unsplash.com/photo-1504754524776-abf3858f2bd5",
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c"
+      "https://images.unsplash.com/photo-1760263215713-a866691b58b2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGx1Y2tub3clMjBmb29kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000"
     ],
-    location: { city: "Barcelona", country: "Spain" },
+    location: { city: "Lucknow", country: "India" },
     duration: "3 hours",
     category: "Food" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Authentic tapas bars", "Variety of tapas", "Local wines", "Insightful guide"],
-    included: ["All food and drink tastings", "Local guide"],
+    highlights: ["Tunday Kebab", "Galouti Kebab", "Lucknawi Biryani", "Sheermal"],
+    included: ["All food tastings", "Local guide", "Bottled water"],
     notIncluded: ["Hotel transfers", "Additional purchases", "Gratuities"],
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Florence Pasta Making Class",
-    description: "Learn to make fresh pasta from scratch in a traditional Florentine kitchen. Enjoy your handmade meal with local wine.",
-    shortDescription: "Hands-on pasta making class in Florence.",
-    price: 4500,
+    title: "Kolkata Street Food Tour",
+    description: "Dive into the vibrant street food culture of Kolkata. From Puchkas and Kathi Rolls to Sandesh and Mishti Doi, this tour is a feast for the senses.",
+    shortDescription: "A guided tour of Kolkata's legendary street food.",
+    price: 1500,
     images: [
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f",
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKxG3tgS87WfNuTsaUL9Cb5_hXXQB-PbOytg&s"
     ],
-    location: { city: "Florence", country: "Italy" },
+    location: { city: "Kolkata", country: "India" },
     duration: "3 hours",
     category: "Food" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Traditional recipes", "Fresh ingredients", "Enjoy your meal", "Local wine pairing"],
-    included: ["Ingredients", "Cooking instruction", "Lunch/dinner with wine", "Recipe booklet"],
-    notIncluded: ["Transportation", "Apron", "Souvenirs"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "New Orleans French Quarter Food Tour",
-    description: "Explore the culinary delights of New Orleans' historic French Quarter. Sample iconic dishes like Gumbo, Beignets, and Po'boys on a guided walking tour.",
-    shortDescription: "Taste the iconic flavors of New Orleans on a guided food tour.",
-    price: 4200,
-    images: [
-      "https://images.unsplash.com/photo-1504754524776-abf3858f2bd5",
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c"
-    ],
-    location: { city: "New Orleans", country: "USA" },
-    duration: "3 hours",
-    category: "Food" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Cajun & Creole cuisine", "Historic French Quarter", "Multiple food stops", "Local guide stories"],
+    highlights: ["Puchka (Pani Puri)", "Kathi Rolls", "Jhalmuri", "Bengali sweets"],
     included: ["All food tastings", "Local guide"],
     notIncluded: ["Drinks", "Gratuities", "Hotel transfers"],
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Tokyo Tsukiji Outer Market & Sushi Making",
-    description: "Visit the bustling Tsukiji Outer Market, then learn to make authentic sushi from a professional chef. Enjoy your handmade sushi for lunch.",
-    shortDescription: "Market visit and hands-on sushi making class in Tokyo.",
-    price: 7000,
+    title: "Hyderabad Biryani & Haleem Trail",
+    description: "Discover why Hyderabadi Biryani is world-famous on this food trail. Also, savor other local delicacies like Haleem (seasonal) and Irani Chai at iconic city eateries.",
+    shortDescription: "Taste the authentic flavors of Hyderabadi cuisine.",
+    price: 2200,
     images: [
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f",
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYbVwz2NVKbIBYwW-A5J67jTR2v79hRomkYw&s"
     ],
-    location: { city: "Tokyo", country: "Japan" },
+    location: { city: "Hyderabad", country: "India" },
     duration: "4 hours",
     category: "Food" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Fresh seafood market", "Expert sushi chef", "Learn various sushi types", "Enjoy your creations"],
-    included: ["Market tour", "Sushi ingredients", "Cooking instruction", "Lunch"],
-    notIncluded: ["Drinks", "Transportation", "Souvenirs"],
+    highlights: ["Authentic Hyderabadi Biryani", "Haleem tasting", "Irani Chai & Osmania biscuits", "Historic eateries"],
+    included: ["Food tastings", "Local guide", "Transport between spots"],
+    notIncluded: ["Hotel transfers", "Additional orders", "Tips"],
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Mexican Cooking Class & Market Tour, Oaxaca",
-    description: "Immerse yourself in Oaxacan cuisine with a market tour to select ingredients, followed by a hands-on cooking class to prepare traditional Mexican dishes.",
-    shortDescription: "Market-to-table Mexican cooking experience in Oaxaca.",
-    price: 5500,
+    title: "Mumbai Dabbawala & Street Food Tour",
+    description: "Witness the incredible efficiency of Mumbai's Dabbawalas, a century-old food delivery network. Followed by a tour of Mumbai's most famous street food like Vada Pav and Pav Bhaji.",
+    shortDescription: "See the famous Dabbawalas and taste Mumbai's street food.",
+    price: 2800,
     images: [
-      "https://images.unsplash.com/photo-1504754524776-abf3858f2bd5",
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2K2vYL4SsdzJwZ0x2kJNwF_Gu3B6cmNYIMw&s"
     ],
-    location: { city: "Oaxaca", country: "Mexico" },
-    duration: "5 hours",
+    location: { city: "Mumbai", country: "India" },
+    duration: "4 hours",
     category: "Food" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Local market exploration", "Authentic Oaxacan recipes", "Hands-on preparation", "Enjoy your meal"],
-    included: ["Market tour", "Ingredients", "Cooking instruction", "Lunch/dinner"],
-    notIncluded: ["Alcoholic beverages", "Transportation", "Tips"],
+    highlights: ["Dabbawala system explained", "Vada Pav", "Pav Bhaji", "Bhel Puri"],
+    included: ["Guided tour", "Food tastings", "Local train travel"],
+    notIncluded: ["Hotel transfers", "Additional food", "Tips"],
     maxGroupSize: getRandomInt(5, 20)
   },
 
   // --- Wellness Category (7 experiences) ---
   {
-    title: "Bali Yoga & Meditation Retreat",
-    description: "Rejuvenate your mind, body, and soul with a multi-day yoga and meditation retreat in the serene landscapes of Bali. Includes daily yoga, meditation, and healthy meals.",
-    shortDescription: "Multi-day wellness retreat with yoga and meditation in Bali.",
-    price: 30000,
+    title: "Rishikesh Yoga & Meditation Retreat",
+    description: "Rejuvenate your mind, body, and soul with a multi-day yoga and meditation retreat in the serene landscapes of Rishikesh, the 'Yoga Capital of the World'.",
+    shortDescription: "Multi-day wellness retreat with yoga and meditation in Rishikesh.",
+    price: 25000,
     images: [
-      "https://images.unsplash.com/photo-1544367524-d41935573030",
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f"
+      "https://images.unsplash.com/photo-1701709488066-8d32fe5871b8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmlzaGlrZXNoJTIweW9nYXxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000"
     ],
-    location: { city: "Ubud", country: "Indonesia" },
+    location: { city: "Rishikesh", country: "India" },
     duration: "5 days",
     category: "Wellness" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Daily yoga classes", "Guided meditation sessions", "Healthy organic meals", "Balinese massage"],
-    included: ["Accommodation", "All meals", "Yoga & meditation classes", "One massage"],
+    highlights: ["Daily yoga classes", "Guided meditation sessions", "Healthy sattvic meals", "Ganga Aarti"],
+    included: ["Accommodation", "All meals", "Yoga & meditation classes", "One Ayurvedic massage"],
     notIncluded: ["Flights", "Personal expenses", "Additional treatments"],
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Hot Springs & Spa Day in Budapest",
-    description: "Relax and unwind at one of Budapest's famous thermal baths. Enjoy the healing waters, various pools, and optional spa treatments for a day of ultimate relaxation.",
-    shortDescription: "Relaxing day at Budapest's historic thermal hot springs.",
-    price: 3500,
+    title: "Himalayan Hot Springs at Manikaran",
+    description: "Relax and unwind in the natural geothermal hot springs at Manikaran Sahib, a pilgrimage site in the Parvati Valley. The healing waters are a perfect antidote to mountain fatigue.",
+    shortDescription: "Relaxing day at the natural hot springs of Manikaran.",
+    price: 1500,
     images: [
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f",
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+      "https://images.unsplash.com/photo-1652379379347-5ab81f8d03fa?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFuaWthcmFufGVufDB8fDB8fHww&fm=jpg&q=60&w=3000"
     ],
-    location: { city: "Budapest", country: "Hungary" },
-    duration: "Full day",
+    location: { city: "Manikaran", country: "India" },
+    duration: "Half day",
     category: "Wellness" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Historic thermal baths", "Multiple pools (indoor/outdoor)", "Saunas & steam rooms", "Optional massages"],
-    included: ["Entrance ticket to baths", "Locker access"],
-    notIncluded: ["Towel/swimwear rental", "Massages", "Food and drinks"],
+    highlights: ["Natural hot water pools", "Sulphur healing properties", "Pilgrimage site", "Parvati Valley views"],
+    included: ["Access to public baths", "Locker facility"],
+    notIncluded: ["Transportation", "Private baths", "Food and drinks"],
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Sound Bath & Healing Session, Sedona",
-    description: "Experience deep relaxation and energetic healing with a guided sound bath session in the spiritual vortexes of Sedona. Crystal bowls and gongs create a meditative atmosphere.",
-    shortDescription: "Meditative sound bath experience in Sedona's spiritual landscape.",
-    price: 2800,
+    title: "Sound Bath & Healing Session, Auroville",
+    description: "Experience deep relaxation and energetic healing with a guided sound bath session in the spiritual community of Auroville. Tibetan bowls and gongs create a meditative atmosphere.",
+    shortDescription: "Meditative sound bath experience in Auroville's serene setting.",
+    price: 2000,
     images: [
-      "https://images.unsplash.com/photo-1544367524-d41935573030",
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f"
+      "https://images.unsplash.com/photo-1593810451410-8fbb422cc15e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c291bmQlMjBiYXRofGVufDB8fDB8fHww&fm=jpg&q=60&w=3000"
     ],
-    location: { city: "Sedona", country: "USA" },
+    location: { city: "Auroville", country: "India" },
     duration: "1.5 hours",
     category: "Wellness" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Crystal singing bowls", "Gongs and chimes", "Deep relaxation", "Energetic cleansing"],
+    highlights: ["Tibetan singing bowls", "Gongs and chimes", "Deep relaxation", "Energetic cleansing"],
     included: ["Sound bath session", "Comfortable mats/blankets"],
     notIncluded: ["Transportation", "Personal healing sessions", "Food"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Ayurvedic Consultation & Massage, Kerala",
-    description: "Discover the ancient healing science of Ayurveda with a personalized consultation and rejuvenating full-body massage in its birthplace, Kerala.",
-    shortDescription: "Personalized Ayurvedic consultation and traditional massage.",
-    price: 4000,
-    images: [
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f",
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
-    ],
-    location: { city: "Kochi", country: "India" },
-    duration: "2 hours",
-    category: "Wellness" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Expert Ayurvedic doctor", "Dosha analysis", "Traditional oil massage", "Herbal remedies"],
-    included: ["Consultation", "Full-body massage", "Herbal tea"],
-    notIncluded: ["Additional treatments", "Transportation", "Meals"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Forest Bathing (Shinrin-Yoku) in Kyoto",
-    description: "Reconnect with nature through a guided Shinrin-Yoku (forest bathing) experience in the tranquil forests surrounding Kyoto. Enhance well-being and reduce stress.",
-    shortDescription: "Guided forest bathing session for relaxation and mindfulness.",
-    price: 3000,
-    images: [
-      "https://images.unsplash.com/photo-1544367524-d41935573030",
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f"
-    ],
-    location: { city: "Kyoto", country: "Japan" },
-    duration: "3 hours",
-    category: "Wellness" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Mindful walking", "Sensory exercises", "Nature connection", "Stress reduction"],
-    included: ["Certified guide", "Light refreshments", "Mindfulness exercises"],
-    notIncluded: ["Transportation", "Meals", "Specialized gear"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Desert Yoga & Stargazing, Jordan",
-    description: "Find inner peace with a sunset yoga session amidst the stunning Wadi Rum desert, followed by a traditional Bedouin dinner and incredible stargazing.",
-    shortDescription: "Sunset yoga, Bedouin dinner, and stargazing in Wadi Rum.",
-    price: 6500,
-    images: [
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f",
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
-    ],
-    location: { city: "Wadi Rum", country: "Jordan" },
-    duration: "Evening",
-    category: "Wellness" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Yoga with desert views", "Authentic Bedouin dinner", "Clear night sky", "Stargazing guidance"],
-    included: ["Yoga instructor", "Dinner", "Stargazing equipment", "Bedouin tea"],
-    notIncluded: ["Transportation to camp", "Alcoholic drinks", "Tips"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Meditation & Mindfulness Workshop, Thailand",
-    description: "Participate in a half-day workshop focused on meditation and mindfulness techniques. Learn practical skills to reduce stress and improve focus in a peaceful setting.",
-    shortDescription: "Half-day workshop on meditation and mindfulness techniques.",
-    price: 2000,
-    images: [
-      "https://images.unsplash.com/photo-1544367524-d41935573030",
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f"
-    ],
-    location: { city: "Chiang Mai", country: "Thailand" },
-    duration: "4 hours",
-    category: "Wellness" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Guided meditation", "Breathing exercises", "Mindfulness practices", "Peaceful environment"],
-    included: ["Instructor-led session", "Tea/water", "Cushions/mats"],
-    notIncluded: ["Transportation", "Meals", "Personal items"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-
-  // --- Wildlife Category (7 experiences) ---
-  {
-    title: "Serengeti National Park Safari, Tanzania",
-    description: "Embark on an epic safari adventure in Serengeti National Park, home to the Great Migration and abundant wildlife. Witness lions, elephants, giraffes, and more in their natural habitat.",
-    shortDescription: "Classic wildlife safari in Tanzania's iconic Serengeti National Park.",
-    price: 45000,
-    images: [
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f"
-    ],
-    location: { city: "Arusha", country: "Tanzania" },
-    duration: "3 days",
-    category: "Wildlife" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Big Five spotting", "Great Migration (seasonal)", "Expert safari guide", "Game drives"],
-    included: ["Safari vehicle with pop-up roof", "Accommodation", "All meals", "Park fees"],
-    notIncluded: ["International flights", "Tips", "Alcoholic drinks"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Gorilla Trekking in Bwindi Impenetrable Forest, Uganda",
-    description: "Experience an unforgettable encounter with endangered mountain gorillas in their natural habitat. Trek through dense forest with expert trackers for a truly unique wildlife experience.",
-    shortDescription: "Once-in-a-lifetime mountain gorilla trekking experience.",
-    price: 80000,
-    images: [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f"
-    ],
-    location: { city: "Bwindi", country: "Uganda" },
-    duration: "1 day",
-    category: "Wildlife" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Close encounter with gorillas", "Guided forest trek", "Conservation efforts", "Photography opportunities"],
-    included: ["Gorilla permit", "Park fees", "Ranger guide", "Briefing"],
-    notIncluded: ["Porters", "Tips", "Accommodation", "Transportation"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Whale Watching Tour, Vancouver Island",
-    description: "Set sail from Vancouver Island on a thrilling whale watching tour. Spot orcas, humpback whales, grey whales, and other marine wildlife in their natural environment.",
-    shortDescription: "Exciting boat tour to spot whales and marine wildlife.",
-    price: 7000,
-    images: [
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f"
-    ],
-    location: { city: "Victoria", country: "Canada" },
-    duration: "3 hours",
-    category: "Wildlife" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Orcas, humpbacks, grey whales", "Marine naturalist on board", "High-speed zodiac or covered vessel", "Stunning coastal scenery"],
-    included: ["Boat tour", "Life jackets", "Expert commentary"],
-    notIncluded: ["Transportation to dock", "Food and drinks", "Tips"],
     maxGroupSize: getRandomInt(5, 20)
   },
   {
@@ -802,8 +454,7 @@ export const sampleExperiences = [
     shortDescription: "Jeep safari for tiger spotting in Ranthambore National Park.",
     price: 5000,
     images: [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f"
+      "https://plus.unsplash.com/premium_photo-1707554248739-0476b49c9055?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmFudGhhbWJvcmUlMjB0aWdlciUyMHJlc2VydmV8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000"
     ],
     location: { city: "Sawai Madhopur", country: "India" },
     duration: "Half day",
@@ -816,118 +467,96 @@ export const sampleExperiences = [
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Galapagos Islands Wildlife Cruise, Ecuador",
-    description: "Discover the unique and fearless wildlife of the Galapagos Islands on a multi-day cruise. Encounter giant tortoises, blue-footed boobies, marine iguanas, and more.",
-    shortDescription: "Multi-day cruise exploring the unique wildlife of the Galapagos.",
-    price: 60000,
+    title: "Vipassana Meditation Course, Igatpuri",
+    description: "Participate in a 10-day residential Vipassana meditation course as taught by S.N. Goenka. A serious, silent retreat to learn the technique of self-observation and purification of mind.",
+    shortDescription: "10-day silent Vipassana meditation course.",
+    price: 0,
     images: [
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShBm7PeKPm7h4MEmec_pQIoe05XKyUeEJYfQ&s"
     ],
-    location: { city: "Puerto Ayora", country: "Ecuador" },
-    duration: "5 days",
-    category: "Wildlife" as CategoryType,
+    location: { city: "Igatpuri", country: "India" },
+    duration: "10 days",
+    category: "Wellness" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Endemic species", "Snorkeling with sea lions", "Expert naturalist guides", "Daily island excursions"],
-    included: ["Cruise accommodation", "All meals", "Guided excursions", "Snorkeling gear"],
-    notIncluded: ["Flights to Galapagos", "Park entrance fee", "Tips"],
+    highlights: ["Learn Vipassana technique", "Noble silence", "Mental purification", "Dhamma teachings"],
+    included: ["Accommodation", "All vegetarian meals", "Meditation instruction"],
+    notIncluded: ["Transportation", "Donations are voluntary"],
     maxGroupSize: getRandomInt(5, 20)
   },
+
+  // --- Wildlife Category (7 experiences) ---
   {
-    title: "Kangaroo Island Wildlife Tour, Australia",
-    description: "Explore the pristine wilderness of Kangaroo Island, a haven for Australian wildlife. See kangaroos, koalas, sea lions, and diverse birdlife in their natural habitats.",
-    shortDescription: "Full-day tour to see Australian wildlife on Kangaroo Island.",
-    price: 12000,
+    title: "Kaziranga National Park Rhino Safari",
+    description: "Explore Kaziranga National Park, a UNESCO World Heritage Site, famous for its population of the one-horned rhinoceros. Enjoy jeep and elephant safaris to spot diverse wildlife.",
+    shortDescription: "Safari to see the one-horned rhino in Kaziranga.",
+    price: 6000,
     images: [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f"
+      "https://images.unsplash.com/photo-1675296098616-53e3d4a1dd57?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8"
     ],
-    location: { city: "Adelaide", country: "Australia" },
+    location: { city: "Kaziranga", country: "India" },
     duration: "Full day",
     category: "Wildlife" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Flinders Chase National Park", "Seal Bay Conservation Park", "Koala spotting", "Remarkable Rocks"],
-    included: ["Round-trip ferry", "Guided island tour", "Park entrance fees", "Lunch"],
-    notIncluded: ["Flights to Adelaide", "Drinks", "Souvenirs"],
+    highlights: ["One-horned rhinoceros", "Jeep safari", "Elephant safari", "Tigers and wild elephants"],
+    included: ["Jeep safari", "Park entrance fees", "Guide"],
+    notIncluded: ["Elephant safari (optional)", "Meals", "Camera fees"],
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Panda Volunteer Program, Chengdu, China",
-    description: "Spend a day as a panda volunteer at a conservation center near Chengdu. Learn about panda care, prepare food, and contribute to their well-being.",
-    shortDescription: "Unique opportunity to volunteer with giant pandas.",
-    price: 15000,
+    title: "Gir National Park Lion Safari",
+    description: "Visit Gir National Park in Gujarat, the only natural habitat of the Asiatic Lion. Embark on a jeep safari to witness these majestic creatures in the wild.",
+    shortDescription: "The only place to see wild Asiatic Lions.",
+    price: 5500,
     images: [
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1-IisTRxIPgRI09VBTNvem21to4X7BOoEaw&s"
     ],
-    location: { city: "Chengdu", country: "China" },
-    duration: "Full day",
+    location: { city: "Sasan Gir", country: "India" },
+    duration: "Half day",
     category: "Wildlife" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Direct interaction with pandas", "Learn about conservation", "Feeding pandas", "Certificate of participation"],
-    included: ["Volunteer program fee", "Lunch", "English-speaking guide", "Transportation from Chengdu"],
-    notIncluded: ["Flights", "Personal expenses", "Tips"],
+    highlights: ["Asiatic lion sightings", "Jeep safari", "Leopards and deer", "Rich birdlife"],
+    included: ["Jeep safari permit", "Guide", "Vehicle charges"],
+    notIncluded: ["Camera fees", "Meals", "Tips"],
     maxGroupSize: getRandomInt(5, 20)
   },
 
   // --- Beach Category (8 experiences) ---
   {
-    title: "Snorkeling & Island Hopping in Phi Phi Islands, Thailand",
-    description: "Explore the stunning Phi Phi Islands on a speedboat tour. Snorkel in crystal-clear waters, relax on pristine beaches, and visit iconic spots like Maya Bay.",
-    shortDescription: "Speedboat tour for snorkeling and island hopping in Phi Phi Islands.",
-    price: 6000,
+    title: "Surfing Lesson in Varkala, Kerala",
+    description: "Learn to surf on the beautiful cliff-side beaches of Varkala with a professional instructor. Perfect for beginners, this lesson will get you riding the waves in no time.",
+    shortDescription: "Beginner surfing lesson at the scenic Varkala Beach.",
+    price: 2000,
     images: [
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f"
+      "https://www.adventurush.com/wp-content/uploads/2024/03/surfing-varkala-4.jpg"
     ],
-    location: { city: "Phuket", country: "Thailand" },
-    duration: "Full day",
-    category: "Beach" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Maya Bay visit", "Snorkeling with colorful fish", "Pristine beaches", "Speedboat thrill"],
-    included: ["Round-trip transfers", "Snorkeling gear", "Lunch & refreshments", "National park fees"],
-    notIncluded: ["Alcoholic drinks", "Tips", "Personal shopping"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Surfing Lesson at Bondi Beach, Sydney",
-    description: "Learn to surf at Australia's iconic Bondi Beach with a professional instructor. Perfect for beginners, this lesson will get you riding the waves in no time.",
-    shortDescription: "Beginner surfing lesson at world-famous Bondi Beach.",
-    price: 4500,
-    images: [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f"
-    ],
-    location: { city: "Sydney", country: "Australia" },
+    location: { city: "Varkala", country: "India" },
     duration: "2 hours",
     category: "Beach" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Iconic beach location", "Experienced instructors", "All equipment provided", "Small group size"],
+    highlights: ["Scenic cliff beach", "Experienced instructors", "All equipment provided", "Small group size"],
     included: ["Surfboard", "Wetsuit", "Instructor", "Safety briefing"],
     notIncluded: ["Transportation", "Food and drinks", "Photos"],
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Sunset Catamaran Cruise, Santorini",
-    description: "Sail the breathtaking caldera of Santorini on a luxury catamaran. Enjoy swimming, snorkeling, a delicious BBQ dinner, and witness a magical sunset over Oia.",
-    shortDescription: "Luxury catamaran cruise with swimming, BBQ, and sunset views.",
-    price: 10000,
+    title: "Sunset Cruise in Goa",
+    description: "Sail along the Mandovi River on a relaxing evening cruise. Enjoy live music, cultural performances, and witness a beautiful Goan sunset over the water.",
+    shortDescription: "Evening river cruise with music, dance, and sunset views.",
+    price: 1500,
     images: [
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgD1Pk8cFslW6g_sphmCBatB7aU2SzyWZgtg&s"
     ],
-    location: { city: "Santorini", country: "Greece" },
+    location: { city: "Panjim", country: "India" },
     duration: "5 hours",
     category: "Beach" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Caldera views", "Volcanic hot springs swim", "Fresh BBQ dinner", "Oia sunset"],
-    included: ["Catamaran cruise", "Snorkeling gear", "BBQ dinner", "Drinks (wine, beer, soft drinks)"],
+    highlights: ["Mandovi River views", "Live Goan music", "Cultural dance performances", "Sunset views"],
+    included: ["Cruise ticket", "Live entertainment", "Snacks"],
     notIncluded: ["Hotel transfers", "Tips", "Personal expenses"],
     maxGroupSize: getRandomInt(5, 20)
   },
@@ -937,8 +566,7 @@ export const sampleExperiences = [
     shortDescription: "Multiple water sports activities at Goa beaches",
     price: 2500,
     images: [
-      "https://images.unsplash.com/photo-1544551763-46a013bb70d5",
-      "https://images.unsplash.com/photo-1559827260-dc66d52bef19"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE6JJBnJGQLTKzeJ-wNCyR4uH__9K8abvwoA&s"
     ],
     location: { city: "Goa", country: "India" },
     duration: "4 hours",
@@ -966,167 +594,12 @@ export const sampleExperiences = [
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Private Beach Cabana & Spa, Maldives",
-    description: "Indulge in a day of luxury with a private beach cabana, personalized butler service, and a rejuvenating spa treatment at a five-star resort in the Maldives.",
-    shortDescription: "Exclusive beach cabana and spa experience in the Maldives.",
-    price: 20000,
-    images: [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f"
-    ],
-    location: { city: "Malé", country: "Maldives" },
-    duration: "Full day",
-    category: "Beach" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Private beach access", "Personal butler", "Luxury spa treatment", "Gourmet lunch"],
-    included: ["Cabana rental", "Spa treatment", "Lunch", "Non-alcoholic drinks"],
-    notIncluded: ["Seaplane transfer", "Alcoholic beverages", "Additional services"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Kayaking & Snorkeling in Halong Bay, Vietnam",
-    description: "Explore the emerald waters and limestone karsts of Halong Bay by kayak. Discover hidden caves and lagoons, and snorkel in secluded spots on this scenic cruise.",
-    shortDescription: "Kayaking and snorkeling adventure amidst Halong Bay's karsts.",
-    price: 7000,
-    images: [
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f"
-    ],
-    location: { city: "Halong Bay", country: "Vietnam" },
-    duration: "Full day",
-category: "Beach" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Kayaking through caves", "Snorkeling in clear waters", "Stunning limestone scenery", "Fresh seafood lunch"],
-    included: ["Cruise", "Kayaking equipment", "Snorkeling gear", "Lunch", "English-speaking guide"],
-    notIncluded: ["Drinks", "Tips", "Transportation to Halong Bay"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Dolphin Watching & Snorkeling, Mauritius",
-    description: "Swim with wild dolphins in their natural habitat off the coast of Mauritius. Followed by snorkeling in a beautiful lagoon and a BBQ lunch on a private island.",
-    shortDescription: "Swim with dolphins and snorkel in Mauritius' clear waters.",
-    price: 8500,
-    images: [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f"
-    ],
-    location: { city: "Flic en Flac", country: "Mauritius" },
-    duration: "6 hours",
-    category: "Beach" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Swimming with wild dolphins", "Snorkeling in lagoon", "BBQ lunch on island", "Scenic boat ride"],
-    included: ["Boat trip", "Snorkeling equipment", "BBQ lunch", "Drinks"],
-    notIncluded: ["Hotel transfers", "Towels", "Sunscreen"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Private Beach Horseback Riding, Punta Cana",
-    description: "Enjoy a romantic and scenic horseback ride along the pristine beaches and lush trails of Punta Cana. Suitable for all experience levels.",
-    shortDescription: "Horseback riding on the beach and trails of Punta Cana.",
-    price: 5000,
-    images: [
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f"
-    ],
-    location: { city: "Punta Cana", country: "Dominican Republic" },
-    duration: "2 hours",
-    category: "Beach" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Beachfront ride", "Scenic trails", "Experienced guides", "All skill levels"],
-    included: ["Horse rental", "Helmet", "Guide", "Water"],
-    notIncluded: ["Hotel transfers", "Tips", "Photos"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-
-  // --- Heritage Category (8 experiences) ---
-  {
-    title: "Machu Picchu Day Trip from Cusco, Peru",
-    description: "Journey to the lost city of the Incas, Machu Picchu, a UNESCO World Heritage site. Explore the ancient citadel with a knowledgeable guide and marvel at its history and beauty.",
-    shortDescription: "Full-day guided tour to the iconic Machu Picchu.",
-    price: 15000,
-    images: [
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f"
-    ],
-    location: { city: "Cusco", country: "Peru" },
-    duration: "Full day",
-    category: "Heritage" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["UNESCO World Heritage site", "Expert local guide", "Stunning mountain views", "Inca history"],
-    included: ["Train tickets", "Bus to Machu Picchu", "Entrance fee", "Guided tour"],
-    notIncluded: ["Flights to Cusco", "Meals", "Tips"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Angkor Wat Sunrise & Temple Tour, Cambodia",
-    description: "Witness a magical sunrise over Angkor Wat, then explore the magnificent temples of the Angkor complex, including Angkor Thom and Ta Prohm, with an expert guide.",
-    shortDescription: "Sunrise tour of Angkor Wat and surrounding ancient temples.",
-    price: 7000,
-    images: [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f"
-    ],
-    location: { city: "Siem Reap", country: "Cambodia" },
-    duration: "Full day",
-    category: "Heritage" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Angkor Wat sunrise", "Bayon Temple faces", "Ta Prohm (Tomb Raider temple)", "Expert history guide"],
-    included: ["Temple pass", "Air-conditioned transport", "English-speaking guide", "Water"],
-    notIncluded: ["Meals", "Tips", "Personal expenses"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Pyramids of Giza & Sphinx Tour, Egypt",
-    description: "Explore the ancient wonders of the Pyramids of Giza and the Sphinx with a private Egyptologist guide. Learn about the pharaohs and the mysteries of these monumental structures.",
-    shortDescription: "Private guided tour of the iconic Pyramids of Giza and Sphinx.",
-    price: 6000,
-    images: [
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f"
-    ],
-    location: { city: "Cairo", country: "Egypt" },
-    duration: "Half day",
-    category: "Heritage" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Great Pyramid of Giza", "Sphinx monument", "Camel ride option", "Expert Egyptologist"],
-    included: ["Private transport", "Entrance fees", "Egyptologist guide", "Bottled water"],
-    notIncluded: ["Camel ride", "Lunch", "Tips"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
-    title: "Acropolis & Parthenon Guided Tour, Athens",
-    description: "Discover the architectural marvels of the Acropolis, including the Parthenon, with a licensed guide. Delve into ancient Greek history and mythology.",
-    shortDescription: "Guided tour of Athens' iconic Acropolis and Parthenon.",
-    price: 3500,
-    images: [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f"
-    ],
-    location: { city: "Athens", country: "Greece" },
-    duration: "3 hours",
-    category: "Heritage" as CategoryType,
-    rating: getRandomRating(),
-    reviewCount: getRandomInt(50, 500),
-    highlights: ["Parthenon temple", "Erechtheion", "Propylaea", "Panoramic city views"],
-    included: ["Skip-the-line entrance", "Licensed guide", "Headsets"],
-    notIncluded: ["Hotel transfers", "Food and drinks", "Acropolis Museum"],
-    maxGroupSize: getRandomInt(5, 20)
-  },
-  {
     title: "Jaipur City Palace & Amber Fort Tour",
     description: "Explore the royal heritage of Jaipur with visits to the magnificent City Palace, the astronomical observatory Jantar Mantar, and the majestic Amber Fort.",
     shortDescription: "Full-day tour of Jaipur's royal palaces and forts.",
     price: 4000,
     images: [
-      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e",
-      "https://images.unsplash.com/photo-1480497490787-505ec076689f"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAj5FrgzkdY_r2CzP1SbONv7K-2Y15C5lvNw&s"
     ],
     location: { city: "Jaipur", country: "India" },
     duration: "8 hours",
@@ -1138,61 +611,77 @@ category: "Beach" as CategoryType,
     notIncluded: ["Entrance fees", "Elephant ride", "Meals"],
     maxGroupSize: getRandomInt(5, 20)
   },
+  // --- Heritage Category (8 experiences) ---
   {
-    title: "Great Wall of China Hiking Tour, Mutianyu",
-    description: "Hike a well-preserved section of the Great Wall of China at Mutianyu. Enjoy stunning views, fewer crowds, and the option of a cable car or toboggan ride.",
-    shortDescription: "Guided hiking tour on the Mutianyu section of the Great Wall.",
-    price: 5500,
+    title: "Taj Mahal & Agra Fort Day Trip from Delhi",
+    description: "Journey to the iconic symbol of love, the Taj Mahal, a UNESCO World Heritage site. Also explore the majestic Agra Fort with a knowledgeable guide.",
+    shortDescription: "Full-day guided tour to the iconic Taj Mahal and Agra Fort.",
+    price: 5000,
     images: [
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdnStzjceOlWvEiYrdEmaFBDxIZvGx7oGOPQ&s"
     ],
-    location: { city: "Beijing", country: "China" },
+    location: { city: "Agra", country: "India" },
     duration: "Full day",
     category: "Heritage" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Well-preserved section", "Stunning panoramic views", "Cable car/toboggan option", "Fewer crowds"],
-    included: ["Round-trip transport", "Entrance ticket", "English-speaking guide"],
-    notIncluded: ["Cable car/toboggan", "Lunch", "Tips"],
+    highlights: ["UNESCO World Heritage site", "Expert local guide", "Mughal architecture", "Agra Fort history"],
+    included: ["Private car from Delhi", "Entrance fees", "Guided tour"],
+    notIncluded: ["Meals", "Tips", "Camera fees"],
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Petra & Wadi Rum Day Tour, Jordan",
-    description: "Discover the ancient Nabataean city of Petra, a UNESCO World Heritage site, and then experience the dramatic desert landscapes of Wadi Rum on a jeep safari.",
-    shortDescription: "Full-day tour to the ancient city of Petra and Wadi Rum desert.",
-    price: 12000,
+    title: "Hampi's Ancient Ruins & Boulders Tour",
+    description: "Explore the surreal landscape of Hampi, a UNESCO World Heritage site, filled with ancient temples, royal enclosures, and unique boulder-strewn hills.",
+    shortDescription: "Explore the ancient capital of the Vijayanagara Empire.",
+    price: 3000,
     images: [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
-      "https://images.unsplash.com/photo-1506197603052-3cc9efd87f2f"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzm9mj7C8V9eVQ4gHHWFOSNQSArfLe0QOjNw&s"
     ],
-    location: { city: "Amman", country: "Jordan" },
+    location: { city: "Hampi", country: "India" },
     duration: "Full day",
     category: "Heritage" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["The Treasury at Petra", "Siq canyon walk", "Wadi Rum jeep safari", "Bedouin hospitality"],
-    included: ["Transport", "Petra entrance", "Wadi Rum jeep tour", "English-speaking guide"],
-    notIncluded: ["Meals", "Drinks", "Tips"],
+    highlights: ["Virupaksha Temple", "Vittala Temple's stone chariot", "Coracle boat ride", "Sunset from Matanga Hill"],
+    included: ["Full-day guided tour", "Bottled water"],
+    notIncluded: ["Entrance fees", "Meals", "Coracle ride fee"],
     maxGroupSize: getRandomInt(5, 20)
   },
   {
-    title: "Colonial Cartagena Walking Tour, Colombia",
-    description: "Stroll through the colorful streets of Cartagena's walled city, a UNESCO World Heritage site. Learn about its rich history, architecture, and vibrant culture from a local guide.",
-    shortDescription: "Guided walking tour of Cartagena's historic colonial city.",
+    title: "Ajanta & Ellora Caves Tour from Aurangabad",
+    description: "Discover the magnificent rock-cut caves of Ajanta and Ellora, a UNESCO World Heritage site. Marvel at ancient paintings, sculptures, and monolithic architecture.",
+    shortDescription: "Guided tour of the ancient Ajanta and Ellora Caves.",
+    price: 4500,
+    images: [
+      "https://images.unsplash.com/photo-1620558601903-9f2441730121?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWphbnRhJTIwY2F2ZXN8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000"
+    ],
+    location: { city: "Aurangabad", country: "India" },
+    duration: "Full day",
+    category: "Heritage" as CategoryType,
+    rating: getRandomRating(),
+    reviewCount: getRandomInt(50, 500),
+    highlights: ["Ancient Buddhist paintings (Ajanta)", "Kailasa Temple (Ellora)", "Rock-cut architecture", "UNESCO site"],
+    included: ["Private transport", "Licensed guide", "Bottled water"],
+    notIncluded: ["Entrance fees", "Lunch", "Tips"],
+    maxGroupSize: getRandomInt(5, 20)
+  },
+  {
+    title: "Khajuraho Temples & Erotic Sculptures Tour",
+    description: "Explore the UNESCO World Heritage temples of Khajuraho, famous for their intricate and stunningly detailed sculptures, including the celebrated erotic carvings.",
+    shortDescription: "Guided tour of Khajuraho's famous sculpted temples.",
     price: 2500,
     images: [
-      "https://images.unsplash.com/photo-1501785888041-af3ba647857c",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ce72f"
+      "https://images.unsplash.com/photo-1672215051407-6e05138da3a9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8a2hhanVyYWhvJTIwdGVtcGxlfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000"
     ],
-    location: { city: "Cartagena", country: "Colombia" },
-    duration: "3 hours",
+    location: { city: "Khajuraho", country: "India" },
+    duration: "Half day",
     category: "Heritage" as CategoryType,
     rating: getRandomRating(),
     reviewCount: getRandomInt(50, 500),
-    highlights: ["Walled city architecture", "Plazas and churches", "Local stories and legends", "Vibrant street art"],
-    included: ["Local guide", "Bottled water"],
-    notIncluded: ["Entrance fees to attractions", "Food and drinks", "Tips"],
+    highlights: ["Western Group of Temples", "Intricate stone carvings", "Nagari style architecture", "UNESCO site"],
+    included: ["Licensed guide", "Bottled water"],
+    notIncluded: ["Entrance fees", "Transport", "Light & Sound show"],
     maxGroupSize: getRandomInt(5, 20)
   },
 ];
