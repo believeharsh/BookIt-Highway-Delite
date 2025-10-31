@@ -14,6 +14,7 @@ const Home = () => {
 
   useEffect(() => {
     dispatch(fetchCategories());
+    handleCategoryFilter(''); 
 
     const handleScroll = () => {
       const section = experienceSectionRef.current;
