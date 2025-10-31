@@ -21,6 +21,17 @@ export const createBooking = async (req: Request, res: Response) => {
       discount,
       finalPrice
     } = req.body;
+    console.log("hello the route is being hit right now")
+    console.log( experienceId,
+      slotId,
+      userName,
+      email,
+      phone,
+      numberOfPeople,
+      promoCode,
+      originalPrice,
+      discount,
+      finalPrice)
 
     // Validate required fields
     if (!experienceId || !slotId || !userName || !email || !phone || !numberOfPeople) {

@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 
 // Import routes
-import experienceRoutes from './routes/experience.Routes';
+import experienceRoutes from './routes/experience.routes';
 import bookingRoutes from './routes/booking.routes';
 import promoRoutes from './routes/promo.routes';
 import helmet from 'helmet';

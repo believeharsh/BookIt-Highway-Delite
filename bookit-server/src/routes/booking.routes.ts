@@ -2,7 +2,7 @@ import express from 'express';
 import { 
   createBooking, 
   getBookingByBookingId 
-} from '../controllers/booking.Controller';
+} from '../controllers/booking.controller';
 
 const bookingRouter = express.Router();
 
