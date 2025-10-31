@@ -5,6 +5,9 @@ import Home from './pages/Home';
 import ExperienceDetails from './pages/ExperienceDetails'
 import Checkout from './pages/Checkout';
 import BookingResult from './pages/BookingResult';
+import Fleet from './pages/Fleet';
+import Contact from './pages/Contacts';
+import About from './pages/AboutUs';
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <main className="grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/fleet" element={<Fleet />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
             <Route path="/experience/:id" element={<ExperienceDetails />} />
             <Route path="/checkout" element={<Checkout />} />
             <Route path="/booking/:bookingId" element={<BookingResult />} />

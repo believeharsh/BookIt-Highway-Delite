@@ -28,11 +28,11 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   const navItems: NavItem[] = [
-    { name: "HOME", href: "#" },
-    { name: "BOOKING", href: "#" },
-    { name: "FLEET", href: "#" },
-    { name: "ABOUT US", href: "#" },
-    { name: "CONTACT", href: "#" },
+    { name: "Home", href: "/" },
+    { name: "Booking", href: "/bookings" },
+    { name: "Fleet", href: "/fleet" },
+    { name: "About us", href: "about" },
+    { name: "contact", href: "contact" },
   ];
 
   return (
