@@ -157,11 +157,11 @@ Output will be in the `dist/` directory.
 
 | Feature                | Preview                                                                |
 | ---------------------- | ---------------------------------------------------------------        |
-| Hero Section           | ![Hero](./screenShots/bookit-hero-section.png)                         |
-| Experience Details     | ![Experience Details](./screenshots/bookit_experience-details-page.png)|
-| About                  | ![About](./screenshots/bookit-about_page.png)                          |
-| Fleet                  | ![Fleet](./screenshots/bookit-fleet-page.png)                          |
-| Experience Explore     | ![Experience Details](./screenshots/bookit-experience-explore.png)     |
+| Hero Section           | ![Hero](.assets/screenShots/bookit-hero-section.png)                         |
+| Experience Details     | ![Experience Details](.assets/screenshots/bookit_experience-details-page.png)|
+| About                  | ![About](.assets/screenshots/bookit-about_page.png)                          |
+| Fleet                  | ![Fleet](.assets/screenshots/bookit-fleet-page.png)                          |
+| Experience Explore     | ![Experience Details](.assets/screenshots/bookit-experience-explore.png)     |
 
 ---
 
