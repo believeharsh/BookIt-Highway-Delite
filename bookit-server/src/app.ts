@@ -52,12 +52,6 @@ if (process.env.NODE_ENV === 'production') {
   keepAlive(url);
 }
 
-// // Database connection
-// mongoose
-//   .connect(process.env.MONGO_DB_URI || 'mongodb://localhost:27017/bookit')
-//   .then(() => console.log('✅ MongoDB connected'))
-//   .catch((err) => console.error('❌ MongoDB connection error:', err));
-
 // Routes
 app.use('/api/experiences', experienceRoutes);
 app.use('/api/bookings', bookingRoutes);
