@@ -3,7 +3,7 @@ import {
   getAllExperiences, 
   getExperienceById, 
   getCategories 
-} from '../controllers/experience.Controller';
+} from '../controllers/experience.controller';
 
 const experienceRouter = express.Router();
 

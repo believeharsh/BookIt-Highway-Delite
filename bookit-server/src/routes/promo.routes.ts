@@ -2,7 +2,7 @@ import express from 'express';
 import { 
   validatePromoCode, 
   getActivePromoCodes 
-} from '../controllers/promo.Controller';
+} from '../controllers/promo.controller';
 
 const promoRouter = express.Router();
 
