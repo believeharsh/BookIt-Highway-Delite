@@ -9,7 +9,7 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
   return (
     <Link
       to={`/experience/${experience._id}`}
-      className="block group max-w-sm w-full"
+      className="block group max-w-sm"
     >
       <div
         className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden 
