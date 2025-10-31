@@ -8,6 +8,7 @@ import experienceRoutes from './routes/experience.routes';
 import bookingRoutes from './routes/booking.routes';
 import promoRoutes from './routes/promo.routes';
 import helmet from 'helmet';
+import { keepAlive } from './services/keepAlive';
 
 dotenv.config();
 
@@ -19,6 +20,11 @@ app.use(cors());
 app.use(express.json());
 app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
+
+if (process.env.NODE_ENV === 'production') {
+  const url = 'https://docsy-api.onrender.com';
+  keepAlive(url);
+}
 
 // Database connection
 mongoose
