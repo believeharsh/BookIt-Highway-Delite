@@ -155,13 +155,13 @@ Output will be in the `dist/` directory.
 
 ## Screenshots
 
-| Feature                | Preview                                                                |
-| ---------------------- | ---------------------------------------------------------------        |
+| Feature                | Preview                                                                       |
+| ---------------------- | ---------------------------------------------------------------               |
 | Hero Section           | ![Hero](./assets/screenShots/bookit-hero-section.png)                         |
 | Experience Details     | ![Experience Details](./assets/screenshots/bookit_experience-details-page.png)|
 | About                  | ![About](./assets/screenshots/bookit-about_page.png)                          |
 | Fleet                  | ![Fleet](./assets/screenshots/bookit-fleet-page.png)                          |
-| Experience Explore     | ![Experience Details](./assets/screenshots/bookit-experience-explore.png)     |
+| Experience Explore     | ![Experience Explore](./assets/screenshots/bookit-experience-explore.png)     |
 
 ---
 
