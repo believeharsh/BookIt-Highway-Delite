@@ -34,7 +34,7 @@ const SlotSelector = ({
       <h3 className="text-2xl font-bold text-gray-900">Select Date & Time</h3>
 
       {Object.entries(slotsByDate).map(([date, dateSlots]) => (
-        <div key={date} className="space-y-3">
+        <div key={date} className="space-y-1">
           <h4 className="font-semibold text-lg text-gray-800">
             {formatDate(date)}
           </h4>
@@ -48,11 +48,11 @@ const SlotSelector = ({
                   key={slot._id}
                   onClick={() => slot.isActive && onSelectSlot(slot)}
                   disabled={!slot.isActive}
-                  className={`p-4 rounded-lg border-2 transition-all text-center
+                  className={`p-2 rounded-lg border-2 transition-all text-center
                     ${
                       isSelected
-                        ? 'border-blue-600 bg-blue-50'
-                        : 'border-gray-200 hover:border-blue-500'
+                        ? 'border-yellow-400 bg-blue-50'
+                        : 'border-gray-200 hover:border-yellow-400'
                     }
                     ${
                       !slot.isActive
