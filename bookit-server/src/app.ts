@@ -48,7 +48,7 @@ app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
 
 if (process.env.NODE_ENV === 'production') {
-  const url = 'https://docsy-api.onrender.com';
+  const url = 'https://bookit-highway-delite.onrender.com';
   keepAlive(url);
 }
 
